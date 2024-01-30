@@ -10,7 +10,7 @@
 body {
     font-size: 1.2rem;
     font-family: "Work Sans", sans-serif;
-    min-height: 2000px;
+    min-height: 4000px;
 }
 
 .hero::before{
@@ -62,7 +62,7 @@ body {
 }
 
 .mynavbar {
-    background-color: rgba(255, 255, 255, 0.3) !important;
+    background-color: rgba(255, 255, 255, 0.5) !important;
     backdrop-filter: blur(3px);
 }
 
@@ -98,7 +98,7 @@ body {
 
 .home h3 {
     color: #444;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     margin-bottom: 1rem;
 }
 
@@ -143,6 +143,61 @@ body {
 .home .heart i {
     margin: auto;
     color: var(--pink);
+}
+
+.info {
+    background-color: var(--bg);
+    color: white;
+    padding-top: 10rem;
+    padding-bottom: 8rem;
+}
+
+.info h2 {
+    font-family: "Sacramento", cursive;
+    font-size: 5rem;
+    font-weight: bold;
+    color: var(--yellow);
+}
+
+.info .alamat {
+    font-size: 1.2rem;
+}
+
+.info .description {
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+.info .card {
+    background-color: rgba(0, 0, 0, 0.2) !important;
+    color: white !important;
+    border: 1px solid whitesmoke;
+}
+
+.info .card-header {
+    border: 1px solid whitesmoke;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+}
+
+.info .card-body {
+    font-size: 1rem;
+}
+
+.info .card-footer {
+    font-size: 0.8rem;
+    border-top: 1px solid whitesmoke;
+}
+
+.info a {
+    color: var(--yellow);
+    background-color: black;
+    box-shadow: var(--shadow);
+}
+
+.info a:hover {
+    background-color: var(--yellow);
+    color: black;
 }
 
 /* Media Query */
